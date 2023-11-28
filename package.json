@@ -1,0 +1,11 @@
+{
+  "name": "react-express-monorepo",
+  "description": "A REACT + Express monorepo",
+  "version": "1.0.0",
+  "author": "Wild Code School",
+  "license": "MIT",
+  "scripts": {
+    "install": "npm --prefix ./front-end i && npm --prefix ./back-end i",
+    "start": "npx concurrently \"npm --prefix ./front-end start\" \"npm --prefix ./back-end start\""
+  }
+}

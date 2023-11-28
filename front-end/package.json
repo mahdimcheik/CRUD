@@ -1,0 +1,25 @@
+{
+  "name": "wcs-react-express-front-end",
+  "description": "REACT + vite starter project",
+  "version": "0.0.0",
+  "author": "WCS",
+  "license": "ISC",
+  "main": "vite.config.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4"
+  }
+}
